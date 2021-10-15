@@ -13,6 +13,38 @@ h1{
     font-size: 55px;
     font-family: 'Valid Harmony';
     color: white;
+    animation: chegar 2s cubic-bezier(0,.87,1,1.79);
+}
+@keyframes chegar{
+    0%{
+        transform: translate(1500px);
+    }
+    50%{
+       transform: rotateY(180deg); 
+    }
+}
+
+#news{
+    padding-top: 10px;
+    width: 120px;
+    height: auto;
+    float: left;
+    margin-left: 34%;
+    animation: surgir 2s ease;
+}
+@keyframes surgir{
+    0% {
+        transform: scale(0);
+    }
+    60% {
+        transform: scale(0);
+    }
+    70% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 nav{
@@ -49,13 +81,7 @@ nav a{
     padding: 0px;
 }
 
-#news{
-    padding-top: 10px;
-    width: 120px;
-    height: auto;
-    float: left;
-    margin-left: 34%;
-}
+
 
 section{
     background-color: #e6decc;
