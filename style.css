@@ -158,3 +158,8 @@ p a:visited{
 #covid{
     float: left;
 }
+@font-face {
+    font-family: 'Valid Harmony';
+    src: url(fontes/Valid\ Harmony.otf);
+    src: url(fontes/Valid\ Harmony.ttf);
+}
